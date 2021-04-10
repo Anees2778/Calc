@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color:#fff;
+}
+.container{
+    text-align:center ;
+    background-color: aliceblue;
+}
+table{
+    margin:auto;
+    
+}
+input{
+    width:320px;
+    height:70px;
+    font-size:28px;
+    margin-top:20px;
+    border:2.5px  solid gray;
+    background-color: rgba(120,255,230,0.7);
+}
+button{
+    cursor: pointer;
+    font-size:28px;
+    height:80px;
+    width:80px;
+    margin:auto;
+    padding:10px 1ppx;
+    background-color:#fff;
+    border-radius:10px;
+    border : 1px #4CAF50 white ;
+}
+
+@media screen and (max-width:680px){
+    akansha{
+        width: 80%;
+    }
+}
+ 
